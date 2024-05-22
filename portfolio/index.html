@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curtis Vize web portfolio</title>
+    <title>Curtis Vize</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Oxygen&family=Oxygen+Mono&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
@@ -17,24 +17,18 @@
 
 <body>
     <header>
-        <a class="hamburger" href="#navbar" aria-label="Open main menu">
-            <span class="sr-only">Open main menu</span>
+        <a class="hamburger" href="#navbar" aria-label="Open menu">
+            <span class="sr-only">Open menu</span>
             <span class="fas fa-bars" aria-hidden="true"></span>
         </a>
         <nav id="navbar">
+            <h1><a href="about.html">Curtis Vize</a></h1>
             <ul>
-                <li>
-                    <h1><a href="index.html"><span class="fa-solid fa-cat" aria hidden="true"></span>Curtis Vize</a>
-                    </h1>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
                 <li>
                     <a href="about.html">About</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="mailto:curtis@curtisvize.com">Contact</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/curtis-vize-b705a532/" target="_blank">
@@ -46,9 +40,6 @@
                         <span class="fa-brands fa-github-square" aria-hidden="true"></span>
                         <span class="sr-only">Github</span></a>
                 </li>
-                <!-- <li>
-                    <a href="#resume?" class="button">Resume</a>
-                </li> -->
                 <a class="close" href="#" aria-label="Close main menu">
                     <span class="sr-only">Close main menu</span>
                     <span class="fas fa-times" aria-hidden="true"></span>
@@ -56,122 +47,28 @@
             </ul>
         </nav>
     </header>
-    <section id="intro">
-        <p class="name">Hi, my name is <span>Curtis Vize.</span></p>
-
-        <h2>web developer</h2>
-
-        <p>I'm a full-stack developer with extensive front-end experience.</p>
-
-        <p>Currently, I'm a software engineer at <a href="https://www.fiserv.com/" target="_blank">Fiserv</a> in the <a
-                href="https://merchants.fiserv.com/en-us" target="_blank">Merchant Solutions</a> division.</p>
-    </section>
-
-    <div class="gradient"></div>
 
     <div class="section-dkgrey">
-        <section id="projects">
-            <h2>Projects I'm proud of</h2>
+        <section class="about">
+            <h2>Who's this guy?</h2>
             <article>
                 <div class="text">
-                    <h4>Gift Card Project</h4>
-                    <h3>Burger King</h3>
-                    <p class="blackbox">A complete set of eCommerce websites for Burger King Crown Cards (aka Gift
-                        Cards). The design elements are the work of the fine team at Burger King/RBI. I worked on the
-                        front-end code and implementation of the sites. My responsibilities included adapting their
-                        creative designs to our responsive styling engine and constructing both the B2C and B2B store
-                        experiences. This work included everything from integrating custom fonts and forms to
-                        connecting with payment gateways and stored value APIs. Check out the Crown Card landing page <a
-                            href="https://bk.wgiftcard.com/responsive/landing_responsive/landing/burgerking"
-                            target="_blank" title="Link to Burger King Crown Card landing page">here</a>.</p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS & Sass</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <img src="./images/bk_landing_page.png" alt="Screenshot of the Wall of Wonder." />
-            </article>
-
-            <article class="reverse">
-                <div class="text">
-                    <h4>Full-stack PHP Web Application</h4>
-                    <h3>wGiftcard</h3>
-                    <p class="blackbox">I also develop and maintain a full-stack PHP application, wGiftcard.
-                        Everything from accessibility and ADA compliance to the underlying back-end that handles the
-                        complexities of secure gift card distribution, I've added features, fixed bugs, and refactored
-                        code for optimization and readability.</p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>PHP</li>
-                        <li>CodeIgniter</li>
-                        <li>MySQL</li>
-                        <li>AWS</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <img src="./images/wgiftcard_sample.png" alt="Screenshot of a sample wGitcard store." />
-            </article>
-
-            <article>
-                <div class="text">
-                    <h4>Bash Scripting &amp; CLI</h4>
-                    <h3>Clover</h3>
-                    <p class="blackbox">I'm also well-versed in Bash and similar CLI environments. An example of
-                        where I've used these skills is in optimizing the client onboarding process for Clover. As the
-                        product expanded, my team and I focused on refining our scripts to not only speed up processing
-                        times but also to reduce log clutter and streamline command input and output, making the the
-                        whole process more efficient and user-friendly.
+                    <h3>A Web Developer</h3>
+                    <p class="blackbox">Currently based in San Diego, California. I've done a lot of front end work and
+                        lately I've really been enjoying full-stack PHP and exploring the many implementations of
+                        JavaScript that are out there today. <a href="mailto:curtis@curtisvize.com">Email</a> me or
+                        check out my <a href="https://www.linkedin.com/in/curtis-vize-b705a532/"
+                            target="_blank">LinkedIn</a> and <a href="https://github.com/curtisvize"
+                            target="_blank">Github</a> pages.
                     </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>Bash</li>
-                        <li>AWS</li>
-                        <li>Linux</li>
-                        <li>MySQL</li>
-                    </ul>
                 </div>
-                <img class="logo-left" src="./images/clover_logo_horizontal.svg" alt="Clover Logo" />
+                <img src="./images/curtis_photo.jpg" alt="a photo of me trying to look natural" />
             </article>
         </section>
     </div>
-
-    <div class="gradient"></div>
-
-    <div class="section-ltolive">
-        <section id="contact">
-            <h2>Contact me</h2>
-
-            <p>I'm always interested in hearing about new and interesting opportunities.</p>
-
-            <p><a href="mailto:curtis@curtisvize.com" class="button">Email me</a></p>
-        </section>
-    </div>
-
-    <div class="gradient"></div>
 
     <footer>
-        <h2>Curtis Vize &middot; Web Developer</h2>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/curtis-vize-b705a532/" target="_blank">
-                    <span class="fab fa-linkedin" aria-hidden="true"></span>
-                    <span class="sr-only">LinkedIn</span></a>
-            </li>
-            <li>
-                <a href="https://github.com/curtisvize" target="_blank">
-                    <span class="fa-brands fa-github-square" aria-hidden="true"></span>
-                    <span class="sr-only">Github</span></a>
-            </li>
-            <li>
-                <a href="mailto:curtis@curtisvize.com"><span class="fa-solid fa-envelope"></span><span
-                        class="sr-only">Email</span></a>
-            </li>
-        </ul>
-        <p><small>&copy; <span id="footer-year"></span> Curtis Vize. All rights reserved.</small></p>
+        <p><small>&copy; <span id="footer-year"></span> Curtis Vize</small></p>
     </footer>
 
     <script>
